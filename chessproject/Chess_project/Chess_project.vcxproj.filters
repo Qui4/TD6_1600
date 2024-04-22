@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Library">
+      <UniqueIdentifier>{d21cf791-71d3-4075-b2fd-15487cfc2eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images">
+      <UniqueIdentifier>{f99020c5-7cdd-4cfb-bbb9-dea34d246c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\random">
+      <UniqueIdentifier>{554245e6-7603-4615-ad2d-ee853fa527a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Chess_project.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="Chess_project.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="Chess_project.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="Chess_project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Piece.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files\random</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Header Files\random</Filter>
+    </ClInclude>
+    <ClInclude Include="resource2.h">
+      <Filter>Header Files\random</Filter>
+    </ClInclude>
+    <ClInclude Include="resource3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Chess_project.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Images\King_B.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Images\Bishop_B.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Images\Bishop_W.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Images\King_W.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Images\Knight_B.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Images\Knight_W.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Images\Pawn_B.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Images\Pawn_W.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Images\Queen_B.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Images\Queen_W.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Images\Rook_B.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Images\Rook_W.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
